@@ -1,0 +1,7 @@
+{
+    "title": "My Site",
+    "navMenu": [
+        {"caption": "Home", "link": "/"},
+        {"caption": "About", "link": "/about.html"}
+    ]
+}

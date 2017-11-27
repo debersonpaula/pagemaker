@@ -1,0 +1,12 @@
+<html>
+{{#getJSON 'data'}}
+<body>
+    <h3>Welcome to {{title}}</h3>
+    <ul>
+        {{#each navMenu}}
+        <li><a href="{{link}}">{{caption}}</a></li>
+        {{/each}}
+    </ul>
+</body>
+{{/getJSON}}
+</html>
