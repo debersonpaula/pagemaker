@@ -6,13 +6,17 @@
 
 ## Run Commands:
 - To build your application on dist folder:
-  `npm run build`
+
+`npm run build`
+
 - To run your application with web-dev-server:
-  `npm run dev`
+
+`npm run dev`
 
 
 
 ## Installed Features:
+
 npm install webpack --save-dev
 npm install webpack-dev-server --save-dev
 npm install extract-text-webpack-plugin --save-dev
