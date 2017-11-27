@@ -4,14 +4,13 @@
     <title>{{title}}</title>
 </head>
 <body>
-    <h3>Welcome to {{title}}</h3>
-    <ul class="navMenu">
-        {{#each navMenu}}
-        <li><a href="{{link}}">{{caption}}</a></li>
-        {{/each}}
-    </ul>
+    {{> partials/header}}
+    <hr>
+    {{> partials/navmenu}}
     <hr>
     {{content}}
+    <hr>
+    {{> partials/footer}}
 </body>
 {{/getJSON}}
 </html>

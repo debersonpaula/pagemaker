@@ -5,14 +5,11 @@
 </head>
 <body>
     {{> partials/header}}
-    <ul class="navMenu">
-        {{#each navMenu}}
-        <li><a href="{{link}}">{{caption}}</a></li>
-        {{/each}}
-    </ul>
+    <hr>
+    {{> partials/navmenu}}
     <hr>
     {{content}}
-
+    <hr>
     {{> partials/footer}}
 </body>
 {{/getJSON}}
