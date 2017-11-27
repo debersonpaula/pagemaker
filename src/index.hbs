@@ -4,7 +4,7 @@
     <title>{{title}}</title>
 </head>
 <body>
-    <h3>Welcome to {{title}}</h3>
+    {{> partials/header}}
     <ul class="navMenu">
         {{#each navMenu}}
         <li><a href="{{link}}">{{caption}}</a></li>
@@ -12,6 +12,8 @@
     </ul>
     <hr>
     {{content}}
+
+    {{> partials/footer}}
 </body>
 {{/getJSON}}
 </html>

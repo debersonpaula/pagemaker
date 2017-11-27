@@ -6,9 +6,11 @@
 
 ## Run Commands:
 - To build your application on dist folder:
+
   `npm run build`
 
 - To run your application with web-dev-server:
+
   `npm run dev`
 
 ## View page:

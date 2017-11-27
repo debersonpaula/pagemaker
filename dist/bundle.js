@@ -68,19 +68,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(1);
-//var template = require("./main.hbs");
-
 console.log('Starting main.js...');
-
-/*
-document.addEventListener("DOMContentLoaded", function() {
-	var div = document.createElement('div');
-	div.innerHTML = template({
-		username: "My Name",
-	});
-	document.body.appendChild(div);
-});
-*/
 
 /***/ }),
 /* 1 */
