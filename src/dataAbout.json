@@ -1,8 +1,8 @@
 {
-    "title": "My Site",
+    "title": "My Site | About",
     "navMenu": [
         {"caption": "Home", "link": "/"},
         {"caption": "About", "link": "/about.html"}
     ],
-    "content": "This is home page content."
+    "content": "This is about page content."
 }

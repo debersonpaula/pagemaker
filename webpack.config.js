@@ -25,9 +25,10 @@ var webpackConfig = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/index.hbs',
-            data: {
-                username: 'Jack'
-            }
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'about.html',
+            template: 'src/about.hbs',
         }),
     ]
 };
